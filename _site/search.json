@@ -1,21 +1,27 @@
 [
   
     {
-      "title"    : "MathJax Test",
-      "tags"     : "mathjax",
-      "url"      : "/2017/07/30/mathjax-test.html"
+      "title"    : "使用GitHub Pages+Jekyll搭建个人博客",
+      "tags"     : "zsc",
+      "url"      : "/2019/11/07/install-jekyll.html"
     } ,
   
     {
-      "title"    : "H2O theme for Jekyll",
+      "title"    : "使用GitHub Pages+Jekyll搭建个人博客",
+      "tags"     : "zsc",
+      "url"      : "/2019/11/07/create-blog.html"
+    } ,
+  
+    {
+      "title"    : "安装ubuntu流程",
+      "tags"     : "zsc",
+      "url"      : "/2019/11/06/Install-Ubuntu.html"
+    } ,
+  
+    {
+      "title"    : "H2O theme for zsc",
       "tags"     : "jekyll 前端开发 设计",
-      "url"      : "/2017/04/18/new-theme-h2o.html"
-    } ,
-  
-    {
-      "title"    : "Hello Jekyll",
-      "tags"     : "jekyll",
-      "url"      : "/2017/04/18/hello-jekyll.html"
+      "url"      : "/2019/11/01/new-theme-h2o.html"
     } 
   
 ]

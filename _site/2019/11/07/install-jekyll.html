@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Jekyll - 张世超的博客</title>
+    <title>使用GitHub Pages+Jekyll搭建个人博客 - 张世超的博客</title>
     <meta name="author"  content="张世超">
-    <meta name="description" content="Hello Jekyll">
-    <meta name="keywords"  content="jekyll">
+    <meta name="description" content="使用GitHub Pages+Jekyll搭建个人博客">
+    <meta name="keywords"  content="zsc">
     <!-- Open Graph -->
-    <meta property="og:title" content="Hello Jekyll - 张世超的博客">
+    <meta property="og:title" content="使用GitHub Pages+Jekyll搭建个人博客 - 张世超的博客">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://localhost:4000/2017/04/18/hello-jekyll.html">
+    <meta property="og:url" content="http://localhost:4000/2019/11/07/install-jekyll.html">
     <meta property="og:description" content="昵称临江仙，后端开发者，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。">
     <meta property="og:site_name" content="张世超的博客">
     <link rel="stylesheet" href="//cdn.staticfile.org/normalize/6.0.0/normalize.min.css">
@@ -116,14 +116,14 @@ Author: Ray-Eldath
       <div class="post-tags">
         
           
-            <a href="/tags.html#jekyll" class="post-tag">jekyll</a>
+            <a href="/tags.html#zsc" class="post-tag">zsc</a>
           
         
       </div>
-      <h1>Hello Jekyll</h1>
+      <h1>使用GitHub Pages+Jekyll搭建个人博客</h1>
       <div class="post-meta">
-        <span class="post-meta-item"><i class="iconfont icon-author"></i>Jekyll</span>
-        <time class="post-meta-item" datetime="17-04-18"><i class="iconfont icon-date"></i>18 Apr 2017</time>
+        <span class="post-meta-item"><i class="iconfont icon-author"></i>zsc</span>
+        <time class="post-meta-item" datetime="19-11-07"><i class="iconfont icon-date"></i>07 Nov 2019</time>
       </div>
     </div>
     
@@ -140,21 +140,49 @@ Author: Ray-Eldath
   <p>Transform your plain text into static websites and blogs.</p>
 </blockquote>
 
-<h3 id="welcome">Welcome</h3>
+<h3 id="创建一个github仓库用来存放博客模板">创建一个github仓库，用来存放博客模板</h3>
 
-<p>This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself.</p>
+<ol>
+  <li>在 GitHub 上建立一个以 .github.io 为后缀的和你帐号名一样的代码仓库，如我的帐号是:sjqway，则建立的仓库名为:[sjqway.github.io]．</li>
+</ol>
 
-<h3 id="so-what-is-jekyll-exactlypermalink">So what is Jekyll, exactly?Permalink</h3>
+<h3 id="克隆别人的github里的模板">克隆别人的github里的模板</h3>
 
-<p>Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like <a href="https://daringfireball.net/projects/markdown/">Markdown</a>) and our <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.</p>
+<ol>
+  <li>在终端里写入git clone +别人的博客模板网址，克隆到本地文件夹，名为［sjqway.github.io］．</li>
+</ol>
 
-<h3 id="helpful-hintspermalink">Helpful HintsPermalink</h3>
+<h3 id="更新博客内容">更新博客内容</h3>
 
-<p>Throughout this guide there are a number of small-but-handy pieces of information that can make using Jekyll easier, more interesting, and less hazardous. Here’s what to look out for.</p>
+<ol>
+  <li>通过更改配置文件 ＿config.yml 修改里面的URL以及个人信息，通过修改或添加＿POSTＳ文件夹里的内容，可以更新博客所展示的文章．</li>
+</ol>
 
-<h3 id="video-test">Video Test</h3>
+<h3 id="预览博客内容">预览博客内容</h3>
 
-<iframe type="text/html" width="100%" height="385" src="http://www.youtube.com/embed/gfmjMWjn-Xg" frameborder="0"></iframe>
+<ol>
+  <li>终端进入本地文件夹 cd sjqway.github.io ，打开jekyll server，在本地浏览器输入https://127.0.0.1:4000 ，可以预览效果，</li>
+</ol>
+
+<h3 id="上传本地文件夹修改的内容到github仓库中">上传本地文件夹修改的内容到github仓库中</h3>
+
+<p>ｇｉｔ　ａｄｄ　．</p>
+
+<p>ｇｉｔ　ｃｏｍｍｉｔ</p>
+
+<p>ｇｉｔ　ｐｕｌｌ</p>
+
+<p>ｇｉｔ　ｐｕｓｈ</p>
+
+<p>最后提示</p>
+
+<p>对象计数中: 20, 完成.
+Delta compression using up to 4 threads.
+压缩对象中: 100% (14/14), 完成.
+写入对象中: 100% (20/20), 1.70 KiB | 868.00 KiB/s, 完成.</p>
+
+<p>即为上传成功，输入＿ｃｏｎｆｉｇ文件中的ｕｒｌ地址，即可浏览博客．</p>
+
 
     </article>
 
@@ -168,7 +196,7 @@ Author: Ray-Eldath
   <section class="author-detail">
     <section class="post-footer-item author-card">
       <div class="avatar">
-        <img src="/assets/img/profile.png" alt="">
+        <img src="/assets/img/123456.gif" alt="">
       </div>
       <div class="author-name" rel="author">张世超</div>
       <div class="bio">
@@ -188,19 +216,19 @@ Author: Ray-Eldath
     </section>
     <section class="post-footer-item read-next">
       
-      <div class="read-next-item">
-        <a href="/2017/04/18/new-theme-h2o.html" class="read-next-link"></a>
-        <section>
-          <span>H2O theme for Jekyll</span>
-          <p>正如我在微博上所说的，使用Jekyll半年以来一直没有令我满意的主题模板，所以开始计划自己写一套好看又好用的主题模...</p>
-        </section>
-        
-        <div class="filter"></div>
-        <img src="http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg" alt="">
-        
-     </div>
-      
 
+      
+      <div class="read-next-item">
+        <a href="/2019/11/07/create-blog.html" class="read-next-link"></a>
+          <section>
+            <span>使用GitHub Pages+Jekyll搭建个人博客</span>
+            <p>  Transform your plain text into static websites and blogs.</p>
+          </section>
+          
+          <div class="filter"></div>
+          <img src="http://on2171g4d.bkt.clouddn.com/jekyll-banner.png" alt="">
+          
+      </div>
       
     </section>
     

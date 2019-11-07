@@ -1,4 +1,4 @@
-I"i<p>正如我在<a href="http://weibo.com/1374146504/profile?topnav=1&amp;wvr=6">微博</a>上所说的，使用<a href="http://jekyll.com.cn/">Jekyll</a>半年以来一直没有令我满意的主题模板，所以开始计划自己写一套好看又好用的主题模板。设计之初就明确了极简主义，风格采用扁平化了，通过卡片式设计来进行区块分明的布局，参考了Medium的ui样式和知乎专栏的视觉风格。</p>
+I"O<p>正如我在<a href="http://weibo.com/1374146504/profile?topnav=1&amp;wvr=6">微博</a>上所说的，使用<a href="http://jekyll.com.cn/">Jekyll</a>半年以来一直没有令我满意的主题模板，所以开始计划自己写一套好看又好用的主题模板。设计之初就明确了极简主义，风格采用扁平化了，通过卡片式设计来进行区块分明的布局，参考了Medium的ui样式和知乎专栏的视觉风格。</p>
 
 <h2 id="h2o">H2O</h2>
 
@@ -66,53 +66,50 @@
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```css
 	p { color: red }
 </code></pre></div></div>
-<p>```</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+支持语言：
 
-<p>支持语言：</p>
+- HTML
+- CSS
+- Sass
+- JavaScript
+- CoffeeScript
+- Java
+- C-like
+- Swift
+- PHP
+- Go
+- Python
 
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Sass</li>
-  <li>JavaScript</li>
-  <li>CoffeeScript</li>
-  <li>Java</li>
-  <li>C-like</li>
-  <li>Swift</li>
-  <li>PHP</li>
-  <li>Go</li>
-  <li>Python</li>
-</ul>
+### 第三方评论
 
-<h3 id="第三方评论">第三方评论</h3>
+由于多说关闭，又对国内其他第三方评论插件无感，所以将[Disqus](https://disqus.com/)列为首选（目前模板也只提供了这个），请自备梯子。
 
-<p>由于多说关闭，又对国内其他第三方评论插件无感，所以将<a href="https://disqus.com/">Disqus</a>列为首选（目前模板也只提供了这个），请自备梯子。</p>
+### 移动端优化
 
-<h3 id="移动端优化">移动端优化</h3>
+响应式设计，对手机和平板等移动设备做了优化。
 
-<p>响应式设计，对手机和平板等移动设备做了优化。</p>
+![](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realm.png)
 
-<p><img src="http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realm.png" alt="" /></p>
+### 关于阅读体验
 
-<h3 id="关于阅读体验">关于阅读体验</h3>
+我认为在内容质量相同的情况下，出色的沉浸式阅读体验是博客的核心。
 
-<p>我认为在内容质量相同的情况下，出色的沉浸式阅读体验是博客的核心。</p>
+H2O在这方面还有很多需要完善的地方，比如：&lt;strike&gt;代码高亮&lt;/strike&gt;、夜间模式、查看大图...
 
-<p>H2O在这方面还有很多需要完善的地方，比如：<strike>代码高亮</strike>、夜间模式、查看大图…</p>
+### 其他特性：
 
-<h3 id="其他特性">其他特性：</h3>
+- 网页标题SEO优化
+- 标签索引，点击标签跳转到标签目录，即可查看对应的全部文章
+- 漂亮
+- 好看
+- 美
 
-<ul>
-  <li>网页标题SEO优化</li>
-  <li>标签索引，点击标签跳转到标签目录，即可查看对应的全部文章</li>
-  <li>漂亮</li>
-  <li>好看</li>
-  <li>美</li>
-</ul>
+## 最后
 
-<h2 id="最后">最后</h2>
+本想趁这次机会将整站https化的，但折腾了半天发现弹性web托管并不支持，所以暂时搁置https的想法。另外，博客统计工具一直使用的是[百度统计](https://tongji.baidu.com)，这次新增了Google Analytics。
 
-<p>本想趁这次机会将整站https化的，但折腾了半天发现弹性web托管并不支持，所以暂时搁置https的想法。另外，博客统计工具一直使用的是<a href="https://tongji.baidu.com">百度统计</a>，这次新增了Google Analytics。</p>
+这次从0到1，独自设计、开发再到发布大约用了一周时间，也算完成一个小小的开源项目了，后续也将持续完善和更新，欢迎[Star](https://github.com/kaeyleo/jekyll-theme-H2O)。
 
-<p>这次从0到1，独自设计、开发再到发布大约用了一周时间，也算完成一个小小的开源项目了，后续也将持续完善和更新，欢迎<a href="https://github.com/kaeyleo/jekyll-theme-H2O">Star</a>。</p>
+</code></pre></div></div>
 :ET
